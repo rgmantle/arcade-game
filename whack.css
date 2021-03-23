@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;   
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 618px;
+    height: 618px;
+    background-color: rgb(189, 255, 230);
+    margin: auto;
+    padding: 20px;
+}
+
+.mole {
+    background-image: url(bo-pop.png);
+    background-size: cover;
+}
+
+.mole-hit {
+    background-image: url(bo-whacked.png);
+    background-size: cover;
+}
+
+.decoy {
+    background-image: url(felix.png);
+    background-size: cover;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.instructions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+.instructions h3 {
+    grid-row: 1;
+}
+
+figure {
+    grid-row: 2;
+    align-items: center;
+    float: center;
+    width: 10%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
